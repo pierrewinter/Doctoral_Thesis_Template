@@ -2,7 +2,8 @@
 This template was created using LATEX and is currently
 set up as a doctoral thesis for ETH Zurich. This can be
 easily changed to fit your needs and your institution by
-using your own .sty styles.
+using your own .sty styles. If you like this style, simply
+replace the names and dates as you see fit.
 
 ## Usage:
 
