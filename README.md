@@ -20,7 +20,7 @@ All chapters should be in the [chapters](chapters) directory and all
 images should be in the [img](img) directory.
 
 I tried to keep the formatting and inputs to a minimum,
-but if you need help consult the LATEX_manual provided here
+but if you need help consult the [LATEX_manual](LaTeX_manual.pdf) provided here
 or visit [tex.stackexchange.com](https://tex.stackexchange.com).
 
 Good luck on your writing! :muscle:
