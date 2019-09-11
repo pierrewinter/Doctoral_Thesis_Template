@@ -10,13 +10,13 @@ Ensure that you have installed both a LATEX compiler
 (MIKTEX, TEXLIVE, etc.)
 and a LATEX editor (TEXMAKER, TEXSTUDIO, WINEDT, etc.).
 
-Open the main .tex file with your editor of choice.
+Open the main [thesis.tex](thesis.tex) file with your editor of choice.
 Compile the document using latex or pdflatex 
 (this can usually be done through your editor).
 The directory structure is organized so that you 
 can edit and compile your document one chapter at a time.
-All chapters should be in the chapter directory and all
-images should be in the img directory.
+All chapters should be in the [chapters](chapters) directory and all
+images should be in the [img](img) directory.
 
 I tried to keep the formatting and inputs to a minimum,
 but if you need help consult the LATEX_manual provided here
