@@ -1,0 +1,68 @@
+% Authored by: Pierre Winter (ETH)
+% Adapted from: Eric Müller (ETH)
+% For use as a Latex doctoral thesis template ______________________________________________________________________________
+
+%fleqn option will left justify equations on page rather than center
+%\documentclass[11pt,twoside,a4paper,fleqn]{report}
+\documentclass[11pt,twoside,a4paper]{report}
+% To work on one chapter at a time and view only that chapter in PDF preview, use \includeonly
+%\includeonly{chapters/appendix}
+
+\renewcommand{\rmdefault}{ppl} % rm writing is in Palatino font
+\linespread{1.05} % Palatino needs more leading
+\usepackage{eulervm} % euler virtual math fonts
+\usepackage[T1]{fontenc} % font encoding for accents and umlauts
+\usepackage{mystyle} % Custom commands and styles file
+
+% Page header
+\setlength{\parindent}{0em} % Disable parindent
+\rhead[\nouppercase{\rightmark}]{\thepage} % Special headings
+\lhead[\thepage]{\nouppercase{\leftmark}} % Special headings
+\cfoot{} % Special headings
+
+% Title page information
+\title{Instanton Title}
+\studentA{Pierre Winter}
+\emailA{pierre.winter@phys.chem.ethz.ch}
+\supervision{Prof. Jeremy O. Richardson}
+\date{June XX 2020}
+
+%Insert special ETH page at end of document
+\infopage
+\declaration
+
+% Begin document________________________________________________________________
+\begin{document}
+
+\maketitle 							% Create title page
+
+
+% Preamble______________________________________________________________________
+
+\pagenumbering{roman} 				% Begin roman page numbering (i,ii,...)
+
+\include{chapters/preamble}
+
+% Chapters______________________________________________________________________
+
+\pagestyle{fancy}               	% Fancy headings
+\pagenumbering{arabic}				% Begin arabic page numbering (1,2,...)
+
+\include{chapters/introduction}
+\cleardoublepage
+\include{chapters/howto}
+\cleardoublepage
+%\include{newchapters}
+%\cleardoublepage
+
+% Appendix______________________________________________________________________
+\appendix
+\include{chapters/appendix}
+
+
+% Bibliography__________________________________________________________________
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+\end{document}
